@@ -20,7 +20,7 @@
 						"type": "text"
 					}
 				],
-				"url": "https://api.meraki.com/api/v1/organizations"
+				"url": "{{baseURL}}/organizations"
 			},
 			"response": []
 		},
