@@ -120,7 +120,7 @@
 						"type": "text"
 					}
 				],
-				"url": "https://api.meraki.com/api/v1/networks/{{networkId}}/wireless/ssids"
+				"url": "{{baseURL}}/networks/{{networkId}}/wireless/ssids"
 			},
 			"response": []
 		},
