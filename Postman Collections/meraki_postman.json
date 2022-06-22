@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "get_org_id",
-			"_postman_id": "2bfa32b7-5ca4-4f3e-8483-7777f7656864",
+			"id": "2bfa32b7-5ca4-4f3e-8483-7777f7656864",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -26,7 +26,7 @@
 		},
 		{
 			"name": "get_network",
-			"_postman_id": "0a67c9b6-3c50-4f86-af6e-5a929bf4ae56",
+			"id": "0a67c9b6-3c50-4f86-af6e-5a929bf4ae56",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -50,7 +50,7 @@
 		},
 		{
 			"name": "get_device",
-			"_postman_id": "83889746-10f4-4c01-87be-1f082acf84bf",
+			"id": "83889746-10f4-4c01-87be-1f082acf84bf",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -69,7 +69,7 @@
 		},
 		{
 			"name": "Get network information",
-			"_postman_id": "f8b42e77-7688-4c8d-98fb-5cdfac9bef74",
+			"id": "f8b42e77-7688-4c8d-98fb-5cdfac9bef74",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -88,7 +88,7 @@
 		},
 		{
 			"name": "Get device information",
-			"_postman_id": "f1fcc300-87fd-40e8-9811-1381c2cfb8cc",
+			"id": "f1fcc300-87fd-40e8-9811-1381c2cfb8cc",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -101,13 +101,13 @@
 						"type": "text"
 					}
 				],
-				"url": "https://api.meraki.com/api/v1/networks/{{networkId}}/devices/{{serial}}"
+				"url": "{{baseURL}}/networks/{{networkId}}/devices/{{serialD}}"
 			},
 			"response": []
 		},
 		{
 			"name": "Get SSID information",
-			"_postman_id": "aa1491f4-6c61-482d-aac1-2e1a7fc0b838",
+			"id": "aa1491f4-6c61-482d-aac1-2e1a7fc0b838",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -126,7 +126,7 @@
 		},
 		{
 			"name": "Get Làm Thêm",
-			"_postman_id": "f161b9c1-14a5-4ed5-a2bb-9dfb818daf34",
+			"id": "f161b9c1-14a5-4ed5-a2bb-9dfb818daf34",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
