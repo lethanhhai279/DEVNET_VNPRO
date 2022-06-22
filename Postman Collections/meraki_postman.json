@@ -149,7 +149,7 @@
 						"type": "text"
 					}
 				],
-				"url": "https://api.meraki.com/api/v1/networks/{{networkId}}/firmwareUpgrades"
+				"url": "{{baseURL}}/networks/{{networkId}}/firmwareUpgrades"
 			},
 			"response": []
 		}
