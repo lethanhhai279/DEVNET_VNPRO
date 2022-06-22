@@ -63,7 +63,7 @@
 						"type": "text"
 					}
 				],
-				"url": "https://api.meraki.com/api/v1/networks/{{networkId}}/devices"
+				"url": "{{baseURL}}/networks/{{networkId}}/devices"
 			},
 			"response": []
 		},
