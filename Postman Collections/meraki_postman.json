@@ -101,7 +101,7 @@
 						"type": "text"
 					}
 				],
-				"url": "{{baseURL}}/networks/{{networkId}}/devices/{{serialD}}"
+				"url": "{{baseURL}}/networks/{{networkId}}/devices/{{serialId}}"
 			},
 			"response": []
 		},
