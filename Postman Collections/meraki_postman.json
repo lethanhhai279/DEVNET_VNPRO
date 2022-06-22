@@ -82,7 +82,7 @@
 						"type": "text"
 					}
 				],
-				"url": "https://api.meraki.com/api/v1/networks/{{networkId}}"
+				"url": "{{baseURL}}/networks/{{networkId}}"
 			},
 			"response": []
 		},
